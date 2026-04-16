@@ -1,0 +1,97 @@
+/* Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  margin: 0;
+}
+
+/* White Card */
+.card {
+  background: white;
+  padding: 25px;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Heading */
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Button */
+button {
+  margin-top: 18px;
+  width: 100%;
+  padding: 12px;
+  background: #2d6cdf;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1f4fbf;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+/* Table Header */
+th {
+  background: #2ddf5d;
+  color: white;
+  padding: 12px;
+  text-align: center;
+}
+
+/* Table Cells */
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  word-break: break-word; /* prevents email overflow */
+}
+
+/* Row Hover Effect */
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Back Link */
+a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #2d6cdf;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
